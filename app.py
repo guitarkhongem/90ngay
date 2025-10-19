@@ -493,7 +493,7 @@ def run_step_4_split_files(
 
 # --- GIAO DIỆN STREAMLIT CHÍNH (Không đổi) ---
 
-st.set_page_config(page_title="Data Clean Pro", layout="wide", page_icon="🚀")
+st.set_page_config(page_title="TSCopyRight", layout="wide", page_icon="🚀")
 
 # --- SIDEBAR ---
 st.sidebar.title("Hướng dẫn sử dụng")
