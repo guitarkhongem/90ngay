@@ -591,14 +591,14 @@ if uploaded_file:
 
                 main_wb.close()
                 
-                status_text_area.success("✅ HOÀN TẤT TOÀN BỘ QUY TRINH!")
+                status_text_area.success("✅ HOÀN TẤT!")
                 progress_bar.progress(100)
                 
                 # Hiển thị 1 nút tải ZIP duy nhất
                 st.download_button(
                     label="🗂️ Tải về Gói Kết Quả (ZIP)",
                     data=zip_buffer,
-                    file_name="GoiKetQua_DatDai.zip",
+                    file_name="KetQua_Thon.zip",
                     mime="application/zip",
                     help=f"File ZIP này chứa file Excel chính ({main_processed_filename}) VÀ tất cả các file con được tách ra từ 'Nhóm 2_GDC'."
                 )
