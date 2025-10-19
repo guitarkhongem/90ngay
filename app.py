@@ -532,8 +532,7 @@ if uploaded_file:
 
         # --- Step 3: Confirm ---
         st.markdown("Bước 3: Xác nhận")
-        st.warning(f"**Cảnh báo:** Thao tác này sẽ **Xoá tất cả màu nền** hiện có trên sheet **'{selected_sheet}'** trước khi tô vàng.")
-        
+                
         start_button = st.button("Bắt đầu")
         st.markdown("---")
 
